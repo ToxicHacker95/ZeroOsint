@@ -1,0 +1,8 @@
+pkg update -y
+pkg upgrade -y
+pkg install python -y
+pkg install git -y
+git clone https://github.com/yourusername/zero-osint.git
+cd zero-osint
+pip install -r requirements.txt
+python zero_number_info.py
